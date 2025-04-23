@@ -1,0 +1,8 @@
+soy fotografo de bodas y este es un justificante de boda que entrego a mis clientes una ves
+ realizada la reserva , quisiera que me des el codigo en python para crear un programa que 
+sea un generador de justificantes , donde yo rellene cada una de las casillas y al presionar
+ generar se cree el archivo en pdf , quisiera que el logo y la firma puedan ser modificadas
+ exportandolo en archivos .png , tambien quisiera que se genere un  historial de justificantes
+ y que todos los justificantes vayan a una misma carpeta , dame tambien una pestaña con la 
+opcion de exportar justificantes para poder exportar todos los justificantes en un solo pdf
+ y poder compartirlos entre los fotografos que trabajan conmigo.

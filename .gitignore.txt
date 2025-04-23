@@ -1,0 +1,6 @@
+echo __pycache__/ > .gitignore
+echo *.pyc >> .gitignore
+echo temp_preview.pdf >> .gitignore
+echo *.spec >> .gitignore
+echo build/ >> .gitignore
+echo dist/ >> .gitignore
