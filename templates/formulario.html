@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Justificantes</title>
+</head>
+<body>
+    <h2>Generador de Justificantes</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Fecha:</label><br>
+        <input type="text" name="fecha" required><br><br>
+
+        <label>Dirección de la ceremonia religiosa:</label><br>
+        <input type="text" name="direccion_religiosa"><br><br>
+
+        <label>Dirección de la ceremonia civil:</label><br>
+        <input type="text" name="direccion_civil"><br><br>
+
+        <label>Dirección de celebración:</label><br>
+        <input type="text" name="direccion_celebracion"><br><br>
+
+        <label>Hora:</label><br>
+        <input type="text" name="hora"><br><br>
+
+        <label>Teléfono de contacto:</label><br>
+        <input type="text" name="telefono"><br><br>
+
+        <label>Motivo:</label><br>
+        <input type="text" name="motivo"><br><br>
+
+        <label>Total:</label><br>
+        <input type="text" name="total"><br><br>
+
+        <label>Desplazamiento:</label><br>
+        <input type="text" name="desplazamiento"><br><br>
+
+        <label>Reserva:</label><br>
+        <input type="text" name="reserva"><br><br>
+
+        <label>A pagar:</label><br>
+        <input type="text" name="a_pagar"><br><br>
+
+        <label>Servicios contratados:</label><br>
+        <textarea name="servicios" rows="4" cols="50"></textarea><br><br>
+
+        <label>Subir Logo:</label><br>
+        <input type="file" name="logo" accept="image/*"><br><br>
+
+        <label>Subir Firma:</label><br>
+        <input type="file" name="firma" accept="image/*"><br><br>
+
+        <button type="submit">Generar PDF</button>
+    </form>
+</body>
+</html>
