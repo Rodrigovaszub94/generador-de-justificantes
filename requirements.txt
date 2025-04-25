@@ -1,4 +1,5 @@
+--prefer-binary
 Flask==2.0.3
-reportlab==3.6.1
+reportlab==3.6.12
 Pillow==8.4.0
 Werkzeug==2.0.3
