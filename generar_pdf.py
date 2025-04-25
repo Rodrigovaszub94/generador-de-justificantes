@@ -87,9 +87,9 @@ def crear_justificante_pdf(data, output_path, logo_path=None, firma_path=None):
     c.drawString(2.5*cm, y, texto)
 
     notas = [
-        "*Reserva con comprobante de 20€.",
-        "*La reserva se descuenta del total.",
-        "*Pagos: 50% día evento, 50% entrega final."
+        "*Toda reserva de fecha se realiza con el comprobante o captura de la transferencia de 20 euros.",
+        "*El importe de reserva se descontará del importe total del servicio.",
+        "*Los pagos se realizarán en 2 partes de 50%, una el día del evento y otra cuando se entregue el trabajo final descontando el monto de reserva."
     ]
     c.setFont("Helvetica", 8.5)
     for i, nota in enumerate(notas):
