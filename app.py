@@ -29,7 +29,7 @@ def formulario():
             'total', 'desplazamiento', 'reserva', 'a_pagar', 'servicios'
         ]}
         
-        # Subir logo
+        # Subir logo y firma
         logo_file = request.files.get('logo')
         firma_file = request.files.get('firma')
 
@@ -59,4 +59,6 @@ def formulario():
     return render_template("formulario.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Configuración para despliegue en Render
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
